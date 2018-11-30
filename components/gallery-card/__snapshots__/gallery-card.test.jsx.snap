@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GalleryCard should render with description as HTML 1`] = `
+<li>
+  <h2>
+    <Link
+      as="/slug"
+      href="/?slug=slug"
+      prefetch={true}
+    >
+      <a>
+        title
+      </a>
+    </Link>
+  </h2>
+  <p
+    key="0"
+  >
+    Description as HTML
+  </p>
+</li>
+`;
+
+exports[`GalleryCard should render without crashing 1`] = `
+<li>
+  <h2>
+    <Link
+      as="/slug"
+      href="/?slug=slug"
+      prefetch={true}
+    >
+      <a>
+        title
+      </a>
+    </Link>
+  </h2>
+</li>
+`;

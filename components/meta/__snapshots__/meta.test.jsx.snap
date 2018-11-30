@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meta should render without crashing 1`] = `
+<Fragment>
+  <SideEffect(Head)>
+    <meta
+      className="jsx-2531390143"
+      content="width=device-width, initial-scale=1"
+      name="viewport"
+    />
+    <meta
+      charSet="utf-8"
+      className="jsx-2531390143"
+    />
+  </SideEffect(Head)>
+  <JSXStyle
+    css="@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat');*{outline-color:#2ec4b6;}html{font-size:16px;font-family:'Lora',serif;}@media screen and (min-width:320px){html{font-size:calc(16px + 6 * ((100vw - 320px) / 680));}}@media screen and (min-width:1000px){html{font-size:22px;}}body{background:#fdfffc;color:#011627;padding-bottom:50px;margin:0;}a{color:#2ec4b6;}a:hover,a:focus,a:active{color:#1e7d74;}a,button{-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;}h1,h2,h3,h4,h5,h6,.header,.heading{font-family:'Montserrat',sans-serif;}"
+    styleId="2531390143"
+  />
+</Fragment>
+`;

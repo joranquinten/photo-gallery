@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should render without crashing 1`] = `
+<Fragment>
+  <nav
+    className="jsx-2812097201"
+  >
+    <Link
+      href="/"
+      prefetch={true}
+    >
+      <a
+        className="jsx-2812097201"
+      >
+        Gallery
+      </a>
+    </Link>
+    <Link
+      href="/about"
+      prefetch={true}
+    >
+      <a
+        className="jsx-2812097201"
+      >
+        About
+      </a>
+    </Link>
+  </nav>
+  <JSXStyle
+    css="@import url('https://fonts.googleapis.com/css?family=Montserrat');nav.jsx-2812097201{position:fixed;z-index:10;background:#2ec4b6;padding:1em;box-shadow:0px 0px 5px rgba(0,0,0,0.3);padding:1em;bottom:0;left:0;right:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}a.jsx-2812097201{color:#fdfffc;padding:0 1em;font-family:'Montserrat',sans-serif;-webkit-text-decoration:none;text-decoration:none;}a.jsx-2812097201:hover,a.jsx-2812097201:active,a.jsx-2812097201:focus{color:#011627;}"
+    styleId="2812097201"
+  />
+</Fragment>
+`;

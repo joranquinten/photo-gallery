@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contentful-helpers mapCollectionItem should format the input in a correct way 1`] = `
+Array [
+  Object {
+    "description": "<p>description</p>",
+    "id": 1,
+    "slug": "slug",
+    "title": "title",
+  },
+]
+`;
+
+exports[`contentful-helpers mapPageItem should format the input in a correct way 1`] = `Object {}`;
+
+exports[`contentful-helpers mapPageItem should format the input in a correct way 2`] = `
+Object {
+  "contents": "<p>contents</p>",
+  "id": 1,
+  "link": "slug",
+  "title": "title",
+}
+`;
+
+exports[`contentful-helpers mapPictureItem should format the input in a correct way 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "meta": Object {
+      "contentType": "image/jpeg",
+      "height": 300,
+      "size": 10000,
+      "width": 400,
+    },
+    "tags": "tags",
+    "thumbnailUrl": "imageUrl?fit=fill&w=300&h=300",
+    "title": "title",
+    "url": "imageUrl",
+  },
+]
+`;
+
+exports[`contentful-helpers mapPictureItem should overwrite the thumbnail presets 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "meta": Object {
+      "contentType": "image/jpeg",
+      "height": 300,
+      "size": 10000,
+      "width": 400,
+    },
+    "tags": "tags",
+    "thumbnailUrl": "imageUrl?fit=fill&w=100&h=100",
+    "title": "title",
+    "url": "imageUrl",
+  },
+]
+`;

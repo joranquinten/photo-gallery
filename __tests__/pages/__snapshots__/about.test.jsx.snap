@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About should render with contents provided 1`] = `
+<About
+  content={
+    Object {
+      "contents": "<p>Contents</p>",
+      "id": "id",
+      "title": "title",
+    }
+  }
+/>
+`;
+
+exports[`About should render without crashing 1`] = `
+<About
+  content={
+    Object {
+      "id": "id",
+      "title": "title",
+    }
+  }
+/>
+`;

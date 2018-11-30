@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery should render with propTypes provided 1`] = `
+<Gallery
+  content={
+    Array [
+      Object {
+        "id": "contentId",
+        "title": "contentTitle",
+      },
+    ]
+  }
+  pictureId={null}
+  slug="slug"
+  type="type"
+/>
+`;
+
+exports[`Gallery should render with propTypes provided 2`] = `
+<Gallery
+  content={
+    Array [
+      Object {
+        "id": "contentId",
+        "title": "contentTitle",
+      },
+    ]
+  }
+  pictureId="pictureId"
+  slug={null}
+  type="type"
+/>
+`;
+
+exports[`Gallery should render with propTypes provided 3`] = `
+<Gallery
+  content={
+    Array [
+      Object {
+        "id": "contentId",
+        "title": "contentTitle",
+      },
+      Object {
+        "description": "contentDescription2",
+        "id": "contentId2",
+        "meta": "contentMeta2",
+        "slug": "contentSlug2",
+        "tags": "contentTags2",
+        "thumbnailUrl": "contentThumbnailUrl2",
+        "title": "contentTitle2",
+      },
+    ]
+  }
+  pictureId={null}
+  slug={null}
+  type="type"
+/>
+`;
+
+exports[`Gallery should render without crashing 1`] = `
+<Gallery
+  content={
+    Array [
+      Object {
+        "id": "contentId",
+        "title": "contentTitle",
+      },
+    ]
+  }
+  pictureId={null}
+  slug={null}
+  type="type"
+/>
+`;

@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PictureThumbnail should render with title and tags provided 1`] = `
+<Fragment>
+  <figure
+    className="jsx-581853410"
+  >
+    <img
+      alt="title"
+      className="jsx-581853410"
+      src="someURL"
+    />
+    <figcaption
+      className="jsx-581853410"
+    >
+      <span
+        className="jsx-581853410 thumbnail-title"
+      >
+        title
+      </span>
+      <div
+        className="jsx-581853410 tags"
+      >
+        <span
+          className="jsx-581853410 tag"
+          key="tag_0"
+        >
+          tag
+           
+        </span>
+      </div>
+    </figcaption>
+  </figure>
+  <JSXStyle
+    css="figure.jsx-581853410{position:relative;margin:0;padding:0;height:300px;overflow:hidden;}figcaption.jsx-581853410{position:absolute;background:rgba(0,0,0,0.4);color:rgb(255,255,255);padding:10px;-webkit-transform:translateY(calc(100% - 60px));-ms-transform:translateY(calc(100% - 60px));transform:translateY(calc(100% - 60px));-webkit-transition-property:-webkit-transform;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-duration:1s;transition-duration:1s;-webkit-transition-timing-function:ease;transition-timing-function:ease;}figure.jsx-581853410:focus figcaption.jsx-581853410,figure.jsx-581853410:hover figcaption.jsx-581853410{-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);}.thumbnail-title.jsx-581853410{font-size:26px;line-height:32px;font-weight:bold;}.tags.jsx-581853410{font-size:0.72em;line-height:1.4em;text-transform:lowercase;}"
+    styleId="581853410"
+  />
+</Fragment>
+`;
+
+exports[`PictureThumbnail should render with title and tags provided 2`] = `
+<Fragment>
+  <figure
+    className="jsx-581853410"
+  >
+    <img
+      alt="title"
+      className="jsx-581853410"
+      src="someURL"
+    />
+    <figcaption
+      className="jsx-581853410"
+    >
+      <span
+        className="jsx-581853410 thumbnail-title"
+      >
+        title
+      </span>
+      <div
+        className="jsx-581853410 tags"
+      >
+        <span
+          className="jsx-581853410 tag"
+          key="tag_0"
+        >
+          tag
+          , 
+        </span>
+        <span
+          className="jsx-581853410 tag"
+          key="tag_1"
+        >
+          multiple
+           
+        </span>
+      </div>
+    </figcaption>
+  </figure>
+  <JSXStyle
+    css="figure.jsx-581853410{position:relative;margin:0;padding:0;height:300px;overflow:hidden;}figcaption.jsx-581853410{position:absolute;background:rgba(0,0,0,0.4);color:rgb(255,255,255);padding:10px;-webkit-transform:translateY(calc(100% - 60px));-ms-transform:translateY(calc(100% - 60px));transform:translateY(calc(100% - 60px));-webkit-transition-property:-webkit-transform;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-duration:1s;transition-duration:1s;-webkit-transition-timing-function:ease;transition-timing-function:ease;}figure.jsx-581853410:focus figcaption.jsx-581853410,figure.jsx-581853410:hover figcaption.jsx-581853410{-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);}.thumbnail-title.jsx-581853410{font-size:26px;line-height:32px;font-weight:bold;}.tags.jsx-581853410{font-size:0.72em;line-height:1.4em;text-transform:lowercase;}"
+    styleId="581853410"
+  />
+</Fragment>
+`;
+
+exports[`PictureThumbnail should render without crashing 1`] = `
+<Fragment>
+  <figure
+    className="jsx-581853410"
+  >
+    <img
+      alt=""
+      className="jsx-581853410"
+      src="someURL"
+    />
+    <figcaption
+      className="jsx-581853410"
+    >
+      <span
+        className="jsx-581853410 thumbnail-title"
+      />
+      <div
+        className="jsx-581853410 tags"
+      />
+    </figcaption>
+  </figure>
+  <JSXStyle
+    css="figure.jsx-581853410{position:relative;margin:0;padding:0;height:300px;overflow:hidden;}figcaption.jsx-581853410{position:absolute;background:rgba(0,0,0,0.4);color:rgb(255,255,255);padding:10px;-webkit-transform:translateY(calc(100% - 60px));-ms-transform:translateY(calc(100% - 60px));transform:translateY(calc(100% - 60px));-webkit-transition-property:-webkit-transform;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-duration:1s;transition-duration:1s;-webkit-transition-timing-function:ease;transition-timing-function:ease;}figure.jsx-581853410:focus figcaption.jsx-581853410,figure.jsx-581853410:hover figcaption.jsx-581853410{-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);}.thumbnail-title.jsx-581853410{font-size:26px;line-height:32px;font-weight:bold;}.tags.jsx-581853410{font-size:0.72em;line-height:1.4em;text-transform:lowercase;}"
+    styleId="581853410"
+  />
+</Fragment>
+`;

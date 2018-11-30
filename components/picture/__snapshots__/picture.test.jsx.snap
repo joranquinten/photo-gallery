@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Picture should render with title and tags provided 1`] = `
+<Fragment>
+  <Loader>
+    <div
+      className="jsx-1539880047 loader"
+    >
+      Loading title...
+    </div>
+  </Loader>
+  <JSXStyle
+    css=".loader.jsx-1539880047{padding:2em;}figure.jsx-1539880047{position:relative;margin:0;padding:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;overflow:hidden;}img.jsx-1539880047{max-width:calc(100vw - 200px);max-height:calc(100vh - 200px);object-fit:scale-down;}figcaption.jsx-1539880047{position:absolute;background:rgba(0,0,0,0.4);color:rgb(255,255,255);padding:100px;opacity:0;-webkit-transform:rotate(0deg) translateY(calc(300% + 100px));-ms-transform:rotate(0deg) translateY(calc(300% + 100px));transform:rotate(0deg) translateY(calc(300% + 100px));-webkit-transition-property:-webkit-transform,opacity;-webkit-transition-property:transform,opacity;transition-property:transform,opacity;-webkit-transition-duration:0.4s;transition-duration:0.4s;-webkit-transition-timing-function:ease-in-out;transition-timing-function:ease-in-out;}.title.jsx-1539880047{font-size:26px;line-height:32px;font-weight:bold;}.tags.jsx-1539880047{font-size:0.72em;line-height:1.4em;text-transform:lowercase;}"
+    styleId="1539880047"
+  />
+</Fragment>
+`;
+
+exports[`Picture should render with title and tags provided 2`] = `
+<Fragment>
+  <Loader>
+    <div
+      className="jsx-1539880047 loader"
+    >
+      Loading title...
+    </div>
+  </Loader>
+  <JSXStyle
+    css=".loader.jsx-1539880047{padding:2em;}figure.jsx-1539880047{position:relative;margin:0;padding:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;overflow:hidden;}img.jsx-1539880047{max-width:calc(100vw - 200px);max-height:calc(100vh - 200px);object-fit:scale-down;}figcaption.jsx-1539880047{position:absolute;background:rgba(0,0,0,0.4);color:rgb(255,255,255);padding:100px;opacity:0;-webkit-transform:rotate(0deg) translateY(calc(300% + 100px));-ms-transform:rotate(0deg) translateY(calc(300% + 100px));transform:rotate(0deg) translateY(calc(300% + 100px));-webkit-transition-property:-webkit-transform,opacity;-webkit-transition-property:transform,opacity;transition-property:transform,opacity;-webkit-transition-duration:0.4s;transition-duration:0.4s;-webkit-transition-timing-function:ease-in-out;transition-timing-function:ease-in-out;}.title.jsx-1539880047{font-size:26px;line-height:32px;font-weight:bold;}.tags.jsx-1539880047{font-size:0.72em;line-height:1.4em;text-transform:lowercase;}"
+    styleId="1539880047"
+  />
+</Fragment>
+`;
+
+exports[`Picture should render without crashing 1`] = `
+<Fragment>
+  <Loader>
+    <div
+      className="jsx-1539880047 loader"
+    >
+      Loading ...
+    </div>
+  </Loader>
+  <JSXStyle
+    css=".loader.jsx-1539880047{padding:2em;}figure.jsx-1539880047{position:relative;margin:0;padding:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;overflow:hidden;}img.jsx-1539880047{max-width:calc(100vw - 200px);max-height:calc(100vh - 200px);object-fit:scale-down;}figcaption.jsx-1539880047{position:absolute;background:rgba(0,0,0,0.4);color:rgb(255,255,255);padding:100px;opacity:0;-webkit-transform:rotate(0deg) translateY(calc(300% + 100px));-ms-transform:rotate(0deg) translateY(calc(300% + 100px));transform:rotate(0deg) translateY(calc(300% + 100px));-webkit-transition-property:-webkit-transform,opacity;-webkit-transition-property:transform,opacity;transition-property:transform,opacity;-webkit-transition-duration:0.4s;transition-duration:0.4s;-webkit-transition-timing-function:ease-in-out;transition-timing-function:ease-in-out;}.title.jsx-1539880047{font-size:26px;line-height:32px;font-weight:bold;}.tags.jsx-1539880047{font-size:0.72em;line-height:1.4em;text-transform:lowercase;}"
+    styleId="1539880047"
+  />
+</Fragment>
+`;
