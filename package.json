@@ -1,7 +1,7 @@
 {
   "name": "photo-gallery",
   "version": "1.0.0",
-  "description": "Photo gallery app with SSR, built on top of the Next.js framework and integrated with Contentful as a backend.",,
+  "description": "Photo gallery app with SSR, built on top of the Next.js framework and integrated with Contentful as a backend.",
   "author": "Joran Quinten",
   "license": "MIT",
   "scripts": {
