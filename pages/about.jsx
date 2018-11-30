@@ -14,7 +14,7 @@ class About extends React.Component {
 
     const requestQuery = {
       content_type: 'page',
-      'fields.link': 'about',
+      'fields.slug': 'about',
     };
 
     const response = await client.getEntries(requestQuery);
