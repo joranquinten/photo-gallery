@@ -10,7 +10,7 @@ Fork or clone this repository and install the dependencies with the npm command:
 
 `npm i`
 
-This app is dependant on [Contentful](https://www.contentful.com/) as a CMS. **Make sure you set the keys in the *.ENV* file!** For more information, read through the related article.
+This app is dependant on [Contentful](https://www.contentful.com/) as a CMS. **Make sure you set the keys in the _.ENV_ file!** For more information, read through the related article.
 
 After you've set up contentful, you should be able to start the application with the following command:
 
@@ -61,7 +61,7 @@ Runs the unit tests on the code. Can be run with a :coverage flag to display a c
 
 ## Contributing:
 
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [Contributing.md](Contributing.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Author:
 
